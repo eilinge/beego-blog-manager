@@ -20,6 +20,8 @@ SET FOREIGN_KEY_CHECKS = 0;
 -- ----------------------------
 -- Table structure for equipment_customer
 -- ----------------------------
+CREATE DATABASE gdkxdl;
+USE gdkxdl;
 DROP TABLE IF EXISTS `equipment_customer`;
 CREATE TABLE `equipment_customer`  (
   `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '序号',

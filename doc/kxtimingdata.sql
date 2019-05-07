@@ -20,6 +20,8 @@ SET FOREIGN_KEY_CHECKS = 0;
 -- ----------------------------
 -- Table structure for collect_alarm_info
 -- ----------------------------
+CREATE DATABASE kxtimingdata;
+USE kxtimingdata;
 DROP TABLE IF EXISTS `collect_alarm_info`;
 CREATE TABLE `collect_alarm_info`  (
   `collect_time` datetime(0) NOT NULL COMMENT '采集时间',
